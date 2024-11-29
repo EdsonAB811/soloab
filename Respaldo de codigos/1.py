@@ -99,4 +99,15 @@ st.markdown(f"El valor que ingresó es: {rango}")
 
 ini, final = st.slider("Seleccione rangos", min_value=0, max_value=10, value=(5, 7))
 st.markdown(f"El valor inicial es: {ini}")
-st.markdown(f"El valor final es: {final}
+st.markdown(f"El valor final es: {final}")
+
+import streamlit as st
+
+intro = st.Page("paginas/intro.py", title="Introduccion")
+ejemplos = st.Page("paginas/ejemplos.py", title="Ejemplos")
+textos = st.Page("paginas/textos.py", title="Textos")
+inputs = st.Page("paginas/inputs.py", title="Inputs")
+
+Pg = st.navigation([intro, ejemplos, textos, inputs])
+
+Pg.run()
