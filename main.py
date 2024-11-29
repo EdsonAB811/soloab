@@ -5,7 +5,6 @@ ejemplos = st.Page("paginas/ejemplos.py", title="Ejemplos")
 textos = st.Page("paginas/textos.py", title="Textos")
 inputs = st.Page("paginas/inputs.py", title="Inputs")
 
-Pg = st.navigation([intro, ejemplos, textos, inputs])
-pg = st.navigation({"Elementos": [intro, ejemplos, inputs]})
+pg = st.navigation([intro, ejemplos, textos, inputs])
 
-Pg.run()
+pg.run()
