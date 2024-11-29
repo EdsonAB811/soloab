@@ -111,3 +111,7 @@ inputs = st.Page("paginas/inputs.py", title="Inputs")
 Pg = st.navigation([intro, ejemplos, textos, inputs])
 
 Pg.run()
+
+st.markdown("""
+AAA
+""")
