@@ -47,6 +47,9 @@ with c2:
     fig, ax = plt.subplots()
     ax.plot(x, y)
     ax.grid()
+    ax.set_title("Función Cuadratica")
+    ax.set_xlabel("eje x")
+    ax.set_ylabel("eje y")
     st.pyplot(fig)
 
 #graficar figuras geometricas
@@ -58,8 +61,7 @@ puntos = pd.DataFrame({
     "y": [1, -1, 0.5],
  })
 with c1: 
-    
-  puntos = st.data_editor(puntos, hide_index= True, num_rows="dynamic")
+ puntos = st.data_editor(puntos, hide_index= True, num_rows="dynamic")
 pol = patches.Polygon(puntos, closed= True, fill=True, facecolor="skyblue", edgecolor="navy")
 
 fig, ax = plt.subplots()
