@@ -6,5 +6,4 @@ inputs = st.Page("paginas/inputs.py", title="Inputs")
 
 pg = st.navigation([intro, ejemplos, inputs])
 
-
 pg.run()
