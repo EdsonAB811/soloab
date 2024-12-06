@@ -36,10 +36,10 @@ st.pyplot(fig)
 st.markdown("""
 En el ejemplo anterior vemos lo siguiente:
 
-- La gráfica azul representa la función $f(x) = x^2$.
-- La gráfica naranja muestra la derivada de $f(x)$, que es $f'(x) = 2x$. La razón de cambio en este caso es 8,
+- La gráfica :blue[azul] representa la función $f(x) = x^2$.
+- La gráfica :orange[naranja] muestra la derivada de $f(x)$, que es $f'(x) = 2x$. La razón de cambio en este caso es 8,
  ya que evaluamos la derivada en $x = 4$, es decir, $f'(4) = 8$.
-- La gráfica verde es la recta tangente a la curva en $x = 4$. La ecuación de esta tangente es $y = 8(x - 4) + 16$,
+- La gráfica :green[verde] es la recta tangente a la curva en $x = 4$. La ecuación de esta tangente es $y = 8(x - 4) + 16$,
  o lo que es lo mismo, $y = 8x - 16$. Esta recta toca la curva en el punto $x = 4$, y su pendiente es igual a la razón 
  de cambio de la función en ese punto.
 
@@ -83,9 +83,9 @@ st.pyplot(fig)
 
 st.markdown("""
 En el ejemplo anterior vemos lo siguiente:
-- La gráfica azul representa la función $f(x) = x^3 + 3x^2 + 2x + 4$
-- La gráfica naranja muestra la derivada de $f(x)$, que es $f'(x) = 3x^2 + 6x + 2$.
-- La gráfica verde es la recta tangente a la curva en $x = -3$. La ecuación de esta tangente es $y = f'(-3)(x + 3) + f(-3)$,
+- La gráfica :blue[azul] representa la función $f(x) = x^3 + 3x^2 + 2x + 4$
+- La gráfica :orange[naranja] muestra la derivada de $f(x)$, que es $f'(x) = 3x^2 + 6x + 2$.
+- La gráfica :green[verde] es la recta tangente a la curva en $x = -3$. La ecuación de esta tangente es $y = f'(-3)(x + 3) + f(-3)$,
  que corresponde a una recta con pendiente $f'(-3)$ y pasando por el punto de la función en $x = -3$.
 La razón de cambio en $x = -3$ es $f'(-3) = 11$.
 
@@ -122,9 +122,9 @@ st.pyplot(fig)
 
 st.markdown("""
 En el ejemplo anterior vemos lo siguiente:
-- La gráfica azul representa la función $f(x) = sin(x)$
-- La gráfica naranja muestra la derivada de $f(x)$, que es $f'(x) = cos(x)$.
-- la grafica verde es la recta tangente a la curva en $x = 3$.
+- La gráfica :blue[azul] representa la función $f(x) = sin(x)$
+- La gráfica :orange[naranja] muestra la derivada de $f(x)$, que es $f'(x) = cos(x)$.
+- la grafica :green[verde] es la recta tangente a la curva en $x = 3$.
 - la razon de cambio en $x = 3$ es $f'(3) = cos(3) = -0.909$.
 
 

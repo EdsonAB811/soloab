@@ -5,6 +5,7 @@ import matplotlib.patches as patches
 import pandas as pd 
 import sympy as sy
 
+st.title("Calculadora de la derivada y su recta tangente")
 fun_txt = st.text_input("Ingrese su función: $f(x)=$", value="x**2")
 x_sym= sy.symbols("x")
 punto = st.text_input("Ingrese un punto donde quiera hallar la recta tangente de la función", value="1")
@@ -46,6 +47,7 @@ try:
  ax.grid(True)
 
  st.pyplot(fig)
+ st.markdown(f"La valor de la razón de cambio es igual a $R = {m}$")
 
 
 except:
