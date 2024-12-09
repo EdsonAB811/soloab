@@ -7,7 +7,6 @@ import sympy as sy
 
 
 st.title("RAZONES DE CAMBIO EN LAS DERIVADAS")
-st.subheader("Hecho por: Edson Estiven Niño")
 
 c1, c2 = st.columns([1,2], vertical_alignment="center")
 with c1:
